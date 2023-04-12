@@ -1,0 +1,119 @@
+@import url(./base.css);
+@import url(./content-section.css);
+
+.video__layout{
+    padding-top: 30px;
+    min-height: calc(100% + 32px);
+}
+
+.video__layout-container{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.video__layout-left{
+    /* height: 350px;
+    width: 48%; */
+    background-image: url(../assets/img/maxresdefault-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+
+
+.video__layout-right{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 1;
+}
+
+.video-right-item:first-child{ 
+    height: 48%; 
+    width: 48%;
+    background-image: url(../assets/img/maxresdefault-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.video-right-item:nth-child(2){
+    /* flex: 1; */
+    height: 48%;
+    width: 48%;
+    background-image: url(../assets/img/maxresdefault-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.video-right-item:nth-child(3){
+    /* flex: 1; */
+    height: 48%;
+    width: 48%;
+    background-image: url(../assets/img/maxresdefault\(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.video-right-item:last-child{
+    /* flex: 1; */
+    height: 48%;
+    width: 48%;
+    background-image: url(../assets/img/maxresdefault\(2\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.video-content{
+    width: 100%;
+    /* position: absolute; */
+    bottom: 0;
+    color: #fff;
+    background: linear-gradient(to right, #ffa522, #f95702 70%);
+    padding-left: 10px;
+}
+
+.video-content h5{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+.video-content h6{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.video iframe{
+    outline: none;
+    border: none;
+    background-size: cover;
+}
+.video-right-item{
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+
+}
+.video{
+    flex: 1;
+
+
+}
+
+.video-content{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex: 1; */
+    flex-shrink: 0;
+
+}
+

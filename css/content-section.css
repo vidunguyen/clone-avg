@@ -1,0 +1,61 @@
+@import url(./base.css);
+
+
+.content__top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.title__left{
+    display: flex;
+    font-size: 30px;
+    /* align-items: center; */
+
+}
+
+.logo-min {
+
+    height: 30px;
+    width: 30px;
+    transform: translateY(5px);
+    margin-right: 6px;
+}
+.title__text{
+    border-bottom: 1px solid var(--text-color);
+    color: var(--text-color);
+    font-weight: bold;
+    /* transform: translateY(); */
+}
+
+.title__right{
+    font-size: 20px;
+    /* float: right; */
+    align-self: center;
+}
+
+.title__right i{
+    padding: 6px 8px;
+    border: 1px solid rgba(0,0,0,20%);
+    color: var(--text-color);
+}
+
+
+.content__main{
+    display: flex;
+    gap: 30px;
+}
+
+.content__main-item{
+    flex: 1;
+    /* width: 1; */
+}
+
+.content__main-description{
+    color: var(--primary-color);
+    padding: 10px 0;
+}
+
+.description-calendar{
+    margin-top: 8px;
+    opacity: 0.6;
+}
